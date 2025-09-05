@@ -3,7 +3,7 @@
 
 <xacro:include filename="$(find mr_robot_description)/urdf/materials.xacro" />
 <xacro:include filename="$(find mr_robot_description)/urdf/mr_robot.trans" />
-<xacro:include filename="$(find mr_robot_description)/urdf/mr_robot_gz.gazebo" />
+<xacro:include filename="$(find mr_robot_description)/urdf/mr_robot.gazebo" />
 
 <!-- BASE FOOTPRINT LINK -->
 
