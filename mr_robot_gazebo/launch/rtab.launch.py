@@ -39,7 +39,7 @@ def generate_launch_description():
             description='Use simulation (Gazebo) clock if true'),
         
         DeclareLaunchArgument(
-            'localization', default_value='false',
+            'localization', default_value='true',
             description='Launch in localization mode.'),
 
         # Nodes to launch
